@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- ===========================Energy Sword =================================== -->
+	
+	<ThingDef ParentName="MeeleLegendary">
+		<defName>EM_EnergySword</defName>
+		<label>Lightbringer</label>
+		<description>Plasma based sword used by the Knights.</description>
+		<graphicData>
+		    <texPath>Things/RGMeele/EnergySword</texPath>
+		    <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<MarketValue>40000</MarketValue>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+  </ThingDef>
+  
+  <!-- =========================== =================================== -->
+
+
+</Defs>
