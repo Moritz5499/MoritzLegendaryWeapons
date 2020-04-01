@@ -3,10 +3,14 @@
 <ModMetaData>
 	<name>Moritz´s LegendaryWeapons</name>
 	<author>Moritz</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>moritz.legendaryweapons</packageId>
 	<url>https://github.com/Moritz5499/MoritzLegendaryWeapons</url>
-	<supportedVersions><li>1.0</li><li>1.1</li></supportedVersions>
 	<description>A mod focused on futuristic space technology. 
-	Github repo: https://github.com/Moritz5499/MoritzLegendaryWeapons.
-	Please feel free to use defs and code (i dont have any right now), just give me credit somewhere.
+Github repo: https://github.com/Moritz5499/MoritzLegendaryWeapons.
+Please feel free to use defs and code (i dont have any right now), just give me credit somewhere.
 	</description>
 </ModMetaData>

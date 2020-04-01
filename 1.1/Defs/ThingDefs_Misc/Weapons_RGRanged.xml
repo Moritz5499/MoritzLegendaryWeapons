@@ -71,6 +71,7 @@
 			<damageAmountBase>68</damageAmountBase>
 			<stoppingPower>1.5</stoppingPower>
 			<speed>120</speed>
+			<armorPenetrationBase>1.2</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 	
@@ -139,8 +140,8 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>35</damageAmountBase>
-			<armorPenetrationBase>0.4</armorPenetrationBase>
 			<speed>70</speed>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 
@@ -163,14 +164,14 @@
       <AccuracyShort>1.0</AccuracyShort>
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>.5</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
 		<defaultProjectile>Bullet_LegendaryShotgun</defaultProjectile>
-        <warmupTime>0.8</warmupTime>
+        <warmupTime>0.7</warmupTime>
         <range>20</range>
         <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -206,12 +207,11 @@
 			<shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <projectile>
-			<damageDef>Flame</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>100</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
-			<armorPenetrationBase>0.14</armorPenetrationBase>
 			<speed>70</speed>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
     </projectile>
   </ThingDef>
 
@@ -284,10 +284,10 @@
 		<statBases>
 			<MarketValue>40000</MarketValue>
 			<Mass>12</Mass>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.72</AccuracyShort>
-			<AccuracyMedium>0.52</AccuracyMedium>
-			<AccuracyLong>0.32</AccuracyLong>
+			<AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
@@ -301,9 +301,9 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_LegendaryMini</defaultProjectile>
-				<warmupTime>0.8</warmupTime>
+				<warmupTime>2.5</warmupTime>
 				<range>50</range>
-				<burstShotCount>120</burstShotCount>
+				<burstShotCount>80</burstShotCount>
 				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 				<soundCast>Shot_ChargeRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -335,6 +335,7 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>17</damageAmountBase>
 			<speed>80</speed>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 
