@@ -11,9 +11,8 @@
 		    <texPath>Things/RGMeele/EnergySword</texPath>
 		    <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>Interact_PlasmaSword</soundInteract>
-		<meleeHitSound>MeleeHit_PlasmaSword</meleeHitSound>
-		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
 		<statBases>
 			<MarketValue>40000</MarketValue>
 			<Mass>2</Mass>
@@ -21,14 +20,14 @@
 		<weaponTags>
       <li>UltratechMelee</li>
     </weaponTags>
-		<tradeTags>
-      <li>PsychicWeapon</li>
-    </tradeTags>
+		<!-- <tradeTags> -->
+			<!-- <li>PsychicWeapon</li> -->
+    <!-- </tradeTags> -->
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<equippedStatOffsets>
+		<!-- <equippedStatOffsets>
       <PsychicSensitivity>0.40</PsychicSensitivity>
       <PsychicEntropyRecoveryRate>1.5</PsychicEntropyRecoveryRate>
-    </equippedStatOffsets>
+    </equippedStatOffsets> -->
 		<tools>
 			<li>
 				<label>handle</label>

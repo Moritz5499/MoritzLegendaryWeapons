@@ -29,10 +29,10 @@
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
-		<techLevel>Ultra</techLevel>
+		<techLevel>Spacer</techLevel>
 		<smeltable>False</smeltable>
 		<tradeTags>
-			<li>Exotic</li>
+			<li>ExoticMisc</li>
 		</tradeTags>
 	</ThingDef>
 	
@@ -51,9 +51,6 @@
 	<!-- ============================================================== -->
 	
 	<ThingDef Name="MeeleLegendary" Abstract="True" ParentName="LegendaryWeapon">
-		<weaponTags>
-			<li>NonNeolithicOnlyMelee</li>
-		</weaponTags>
 		<thingCategories>
 			<li>WeaponsMelee</li>
 		</thingCategories>
